@@ -26,7 +26,7 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
-gem 'shrine', '~> 2.6', '>= 2.6.1'
+gem "shrine", "~> 3.0"
 gem 'simple_form', '~> 5.1'
 gem 'faker', '~> 2.19'
 gem 'country_select', '~> 6.0'
