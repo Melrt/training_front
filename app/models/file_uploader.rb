@@ -1,2 +1,2 @@
-class FileUploader < Shrine::Attachment
+class FileUploader < Shrine
 end
