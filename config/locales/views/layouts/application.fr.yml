@@ -1,13 +1,13 @@
 fr:
+  discover_offer: Découvrir nos offres
+  home: Home
+  credit_application_form: Formulaire de demande de crédit
   layouts:
     application:
       header:
         sign_in_button: Se connecter
-        credit_application_form: Formulaire de demande de crédit
         contact: Contact
         our_offers: Nos offres
-        home: Home
-        discover_offer: Découvrir nos offres
       footer:
         who_we_are: Qui sommes-nous ?
         discover: Découvrir
@@ -17,12 +17,5 @@ fr:
         facebook: Facebook
         twitter: Twitter
         youtube: Youtube
-        credit_application_form: Formulaire de demande de crédit
         terms_and_conditions_of_use: CGU
         frequently_asked_questions: FAQ
-        brand: Marque
-        address_brand: 25 rue de Paris
-        zipcode_brand: 75001
-        paris: Paris
-        home: Home
-        discover_offer: Découvrir nos offres
