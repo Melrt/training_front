@@ -7,19 +7,19 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item mx-md-3">
-          <a class="nav-link" aria-current="page" href="#">Home</a>
+          <a class="nav-link" aria-current="page" href="#"><%= t('.home') %></a>
         </li>
         <li class="nav-item mx-md-3 dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Nos offres
+            <%= t('.our_offers') %>
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Découvrir nos offres</a></li>
-            <li><a class="dropdown-item" href="#">Formulaire de demande de crédit</a></li>
+            <li><a class="dropdown-item" href="#"><%= t('.discover_offer') %></a></li>
+            <li><a class="dropdown-item" href="#"><%= t('.credit_application_form') %></a></li>
           </ul>
         </li>
         <li class="nav-item mx-md-3">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#"><%= t('.contact') %></a>
         </li>
         <li>
           <button type="button" class="btn mx-md-3 btn-secondary"><%= t('.sign_in_button') %></button>
@@ -28,4 +28,3 @@
     </div>
   </div>
 </nav>
-

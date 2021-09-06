@@ -2,4 +2,9 @@ fr:
   layouts:
     application:
       header:
-        sign_in_button: se connecter
+        sign_in_button: Se connecter
+        discover_offer: Découvrir nos offres
+        credit_application_form: Formulaire de demande de crédit
+        contact: Contact
+        our_offers: Nos offres
+        home: Home
