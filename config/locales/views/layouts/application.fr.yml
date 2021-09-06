@@ -1,0 +1,5 @@
+fr:
+  layouts:
+    application:
+      header:
+        sign_in_button: se connecter
