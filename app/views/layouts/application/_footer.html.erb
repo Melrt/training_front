@@ -2,38 +2,38 @@
   <div class="bg-light text-dark py-4 fixed-bottom">
     <div class="container d-flex justify-content-between flex-column-reverse flex-sm-row flex-sm-wrap">
       <div>
-        <h3 class="fw-bold text-uppercase">Découvrir</h3>
+        <h3 class="fw-bold text-uppercase"><%= t('.discover') %></h3>
         <ul class="list-unstyled">
-          <li><a class="text-decoration-none" href="#">Home</a></li>
-          <li><a class="text-decoration-none" href="#">Qui sommes-nous ?</a></li>
-          <li><a class="text-decoration-none" href="#">Découvrir nos offres</a></li>
-          <li><a class="text-decoration-none" href="#">Formulaire de demande de crédit</a></li>
+          <li><a class="text-decoration-none" href="#"><%= t('.home') %></a></li>
+          <li><a class="text-decoration-none" href="#"><%= t('.who_we_are') %></a></li>
+          <li><a class="text-decoration-none" href="#"><%= t('.discover_offer') %></a></li>
+          <li><a class="text-decoration-none" href="#"><%= t('.credit_application_form') %></a></li>
         </ul>
       </div>
 
       <div>
-        <h3 class="fw-bold text-uppercase">A propos</h3>
+        <h3 class="fw-bold text-uppercase"><%= t('.about_us') %></h3>
         <ul class="list-unstyled">
-          <li><a class="text-decoration-none" href="#">CGU</a></li>
-          <li><a class="text-decoration-none" href="#">FAQ</a></li>
-          <li><a class="text-decoration-none" href="#">Mentions Légales</a></li>
+          <li><a class="text-decoration-none" href="#"><%= t('.terms_and_conditions_of_use') %></a></li>
+          <li><a class="text-decoration-none" href="#"><%= t('.frequently_asked_questions') %></a></li>
+          <li><a class="text-decoration-none" href="#"><%= t('.legal_notice') %></a></li>
         </ul>
       </div>
 
       <div>
-        <h3 class="fw-bold text-uppercase">Réseaux Sociaux</h3>
+        <h3 class="fw-bold text-uppercase"><%= t('.social_networks') %></h3>
         <ul class="list-unstyled">
-          <li><a class="text-decoration-none" href="#">Facebook</a></li>
-          <li><a class="text-decoration-none" href="#">Twitter</a></li>
-          <li><a class="text-decoration-none" href="#">Youtube</a></li>
+          <li><a class="text-decoration-none" href="#"><%= t('.facebook') %></a></li>
+          <li><a class="text-decoration-none" href="#"><%= t('.twitter') %></a></li>
+          <li><a class="text-decoration-none" href="#"><%= t('.youtube') %></a></li>
         </ul>
       </div>
 
       <div class="d-lg-flex align-items-center">
         <%= image_tag "logo_capsens", alt: "alttext", class: "mx-3", width: 150 %>
         <div>
-          <p>Brand</p>
-          <p>25 rue de Paris <br> 75001 Paris</p>
+          <p><%= t('.brand') %></p>
+          <p><%= t('.address_brand') %><br> <%= t('.zipcode_brand') %> <%= t('.paris') %></p>
         </div>
       </div>
     </div>
