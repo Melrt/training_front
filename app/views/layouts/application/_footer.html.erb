@@ -30,7 +30,7 @@
       </div>
 
       <div class="d-lg-flex align-items-center">
-        <%= image_tag "logo_capsens", alt: "alttext", class: "mx-3", width: 150 %>
+        <%= image_tag "logo_capsens", alt: t('logo_alt'), class: "mx-3", width: 150 %>
         <div>
           <%= content_tag :p, t('brand') %>
           <%= content_tag :p, [t('address_brand'), tag(:br), t('zipcode_brand'), t('brand_city')].join("\n").html_safe %>
