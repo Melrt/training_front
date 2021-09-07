@@ -1,9 +1,9 @@
 fr:
-  discover_offer: Découvrir nos offres
-  home: Home
-  credit_application_form: Formulaire de demande de crédit
   layouts:
     application:
+      discover_offer: Découvrir nos offres
+      home: Home
+      credit_application_form: Formulaire de demande de crédit
       header:
         sign_in_button: Se connecter
         contact: Contact
