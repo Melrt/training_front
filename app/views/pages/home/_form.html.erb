@@ -1,0 +1,59 @@
+<%= simple_form_for @form do |f| %>
+
+  <%= content_tag :h2, t('.personnal_informations'), class: 'text-center my-5' %>
+
+  <div class="row">
+    <%= f.input :first_name, wrapper_html: { class: 'col-md-6 my-3' } %>
+    <%= f.input :last_name, wrapper_html: { class: 'col-md-6 my-3' } %>
+    <%= f.input :birth_date, wrapper_html: { class: 'col-md-6 my-3' } %>
+    <%= f.input :birthplace, wrapper_html: { class: 'col-md-6 my-3' } %>
+    <div class="col-md-6 my-3">
+      <%= f.label :nationality %>
+      <%= f.country_select :nationality, {}, class: 'form-select'  %>
+    </div>
+    <div class="col-md-6 my-3">
+      <%= f.label :matrial_status %>
+      <%= f.select :matrial_status, Form.matrial_status.options, {}, class: 'form-select' %>
+    </div>
+    <%= f.input :email, wrapper_html: { class: 'col-md-6 my-3' } %>
+    <%= f.input :address, wrapper_html: { class: 'col-md-6 my-3' } %>
+    <%= f.input :city, wrapper_html: { class: 'col-md-6 my-3' } %>
+    <%= f.input :zipcode, wrapper_html: { class: 'col-md-6 my-3' } %>
+  </div>
+
+  <%= content_tag :h2, t('.financial_informations'), class: 'text-center my-5'  %>
+
+  <div class="row">
+    <%= f.input :bic, wrapper_html: { class: 'col-md-6 my-3' } %>
+    <%= f.input :iban, wrapper_html: { class: 'col-md-6 my-3' } %>
+    <div class="col-12 col-md-6 my-3">
+      <%= f.input :identity_proof, input_html: { class: 'form-control', type: 'file' } %>
+    </div>
+    <div class="col-12 col-md-6 my-3">
+      <%= f.input :address_proof, as: :file, input_html: { class: 'form-control'} %>
+    </div>
+    <div class="col-12 col-md-6 my-3">
+      <%= f.input :bank_account_details, input_html: { class: 'form-control', type: 'file' } %>
+    </div>
+    <%= f.input :estate, wrapper_html: { class: 'col-md-6 my-3' } %>
+  </div>
+
+  <%= content_tag :h2, t('.contractual_informations'), class: 'text-center my-5' %>
+
+  <div class="row">
+    <%= f.input :annual_net_salary, wrapper_html: { class: 'col-md-6 my-3' } %>
+    <div class="col-md-6 my-3">
+      <%= f.label :contract_type %>
+      <%= f.select :contract_type, Form.contract_type.options, {}, class: 'form-select' %>
+    </div>
+    <div class="col-md-6 my-3">
+      <%= f.input :pay_slip, input_html: { class: 'form-control', type: 'file' } %>
+    </div>
+    <div class="col-md-6 my-3">
+      <%= f.input :contract, input_html: { class: 'form-control', type: 'file' } %>
+    </div>
+  </div>
+  <div class="text-center p-5">
+    <%= f.button :submit, t('.send'), class: 'btn btn-secondary' %>
+  </div>
+<% end %>

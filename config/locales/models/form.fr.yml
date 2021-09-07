@@ -1,0 +1,20 @@
+fr:
+  enumerize:
+    form:
+      contract_type:
+        cdi: CDI
+        cdd: CDD
+        unemployed: Sans emploi
+        pensioner: Retraité(e)
+      matrial_status:
+        married: Marié(e)
+        divorced: Divorcé(e)
+        widower: Veuf(ve)
+        single: Célibataire
+      housing_type:
+        house: Maison
+        flat: Appartement
+      status:
+        owner: Propriétaire
+        tenant: locataire
+        free_lodger: hébergé à titre gratuit
