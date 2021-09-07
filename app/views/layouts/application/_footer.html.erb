@@ -2,38 +2,38 @@
   <div class="bg-light text-dark py-4">
     <div class="container d-flex justify-content-between flex-column-reverse flex-sm-row flex-sm-wrap">
       <div>
-        <h3 class="fw-bold text-uppercase">Découvrir</h3>
+        <%= content_tag :h3, t('.discover'), class: 'fw-bold text-uppercase' %>
         <ul class="list-unstyled">
-          <li><a class="text-decoration-none" href="#">Home</a></li>
-          <li><a class="text-decoration-none" href="#">Qui sommes-nous ?</a></li>
-          <li><a class="text-decoration-none" href="#">Découvrir nos offres</a></li>
-          <li><a class="text-decoration-none" href="#">Formulaire de demande de crédit</a></li>
+          <li><%= link_to I18n.t(:home, scope: %i[layouts application]), '#', class: 'text-decoration-none' %></li>
+          <li><%= link_to t('.who_we_are'), '#',  class: 'text-decoration-none' %></li>
+          <li><%= link_to I18n.t(:discover_offer, scope: %i[layouts application]), '#', class: 'text-decoration-none'  %></li>
+          <li><%= link_to I18n.t(:credit_application_form, scope: %i[layouts application]), '#', class: 'text-decoration-none' %></li>
         </ul>
       </div>
 
       <div>
-        <h3 class="fw-bold text-uppercase">A propos</h3>
+        <%= content_tag :h3, t('.about_us'), class: 'fw-bold text-uppercase' %>
         <ul class="list-unstyled">
-          <li><a class="text-decoration-none" href="#">CGU</a></li>
-          <li><a class="text-decoration-none" href="#">FAQ</a></li>
-          <li><a class="text-decoration-none" href="#">Mentions Légales</a></li>
+          <li><%= link_to t('.terms_and_conditions_of_use'), '#', class: 'text-decoration-none' %></li>
+          <li><%= link_to t('.frequently_asked_questions'), '#', class: 'text-decoration-none' %></li>
+          <li><%= link_to t('.legal_notice'), '#', class: 'text-decoration-none' %></li>
         </ul>
       </div>
 
       <div>
-        <h3 class="fw-bold text-uppercase">Réseaux Sociaux</h3>
+        <%= content_tag :h3, t('.social_networks'), class: 'fw-bold text-uppercase' %>
         <ul class="list-unstyled">
-          <li><a class="text-decoration-none" href="#">Facebook</a></li>
-          <li><a class="text-decoration-none" href="#">Twitter</a></li>
-          <li><a class="text-decoration-none" href="#">Youtube</a></li>
+          <li><%= link_to t('.facebook'), '#', class: 'text-decoration-none' %></li>
+          <li><%= link_to t('.twitter'), '#', class: 'text-decoration-none' %></li>
+          <li><%= link_to t('.youtube'), '#', class: 'text-decoration-none' %></li>
         </ul>
       </div>
 
       <div class="d-lg-flex align-items-center">
         <%= image_tag "logo_capsens", alt: "alttext", class: "mx-3", width: 150 %>
         <div>
-          <p>Brand</p>
-          <p>25 rue de Paris <br> 75001 Paris</p>
+          <%= content_tag :p, t('brand') %>
+          <%= content_tag :p, [t('address_brand'), tag(:br), t('zipcode_brand'), t('brand_city')].join("\n").html_safe %>
         </div>
       </div>
     </div>
