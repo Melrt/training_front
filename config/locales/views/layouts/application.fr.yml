@@ -1,10 +1,21 @@
 fr:
   layouts:
     application:
+      discover_offer: Découvrir nos offres
+      home: Home
+      credit_application_form: Formulaire de demande de crédit
       header:
         sign_in_button: Se connecter
-        discover_offer: Découvrir nos offres
-        credit_application_form: Formulaire de demande de crédit
         contact: Contact
         our_offers: Nos offres
-        home: Home
+      footer:
+        who_we_are: Qui sommes-nous ?
+        discover: Découvrir
+        about_us: A propos
+        legal_notice: Mentions Légales
+        social_networks: Réseaux Sociaux
+        facebook: Facebook
+        twitter: Twitter
+        youtube: Youtube
+        terms_and_conditions_of_use: CGU
+        frequently_asked_questions: FAQ
