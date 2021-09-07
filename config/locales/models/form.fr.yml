@@ -2,8 +2,8 @@ fr:
   enumerize:
     form:
       contract_type:
-        CDI: CDI
-        CDD: CDD
+        cdi: CDI
+        cdd: CDD
         unemployed: Sans emploi
         pensioner: Retraité(e)
       matrial_status:
@@ -15,6 +15,6 @@ fr:
         house: Maison
         flat: Appartement
       status:
-        Owner: Propriétaire
+        owner: Propriétaire
         tenant: locataire
         free_lodger: hébergé à titre gratuit

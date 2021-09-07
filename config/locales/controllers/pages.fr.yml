@@ -1,12 +1,12 @@
 fr:
   pages:
     home:
+      slogan: Vous propose un dossier de crédit pour vous
+      cta_form: Faire la demande
       form:
-        slogan: Vous propose un dossier de crédit pour vous
         financial_informations: Informations financières
         personnal_informations: Informations personnelles
         contractual_informations: Informations contractuelles
-        cta_form: Faire la demande
         send: Envoyer
   simple_form:
     "yes": 'Oui'
@@ -37,5 +37,5 @@ fr:
           estate: Patrimoine
           annual_net_salary: Salaire annuel net
           contract_type: Type de contrat
-          pay_slips: 3 derniers bulletins de salaire
+          pay_slip: 3 derniers bulletins de salaire
           contract: Contrat

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_09_05_164928) do
+ActiveRecord::Schema.define(version: 2021_09_07_124753) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -43,7 +43,7 @@ ActiveRecord::Schema.define(version: 2021_09_05_164928) do
     t.text "identity_proof_data"
     t.text "address_proof_data"
     t.text "contract_data"
-    t.text "pay_slips_data"
+    t.text "pay_slip_data"
     t.text "bank_account_details_data"
     t.string "housing_type"
     t.string "status"
