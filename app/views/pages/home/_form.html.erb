@@ -38,7 +38,8 @@
           <%= f.input :identity_proof, input_html: { class: 'form-control', type: 'file' } %>
         </div>
         <div class="col-12 col-md-6 my-3">
-          <%= f.input :address_proof, input_html: { class: 'form-control', type: 'file' } %>
+          <%#= f.input :address_proof, as: :hidden, input_html: { value: @form.cached_address_proof_data } %>
+          <%= f.input :address_proof, as: :file, input_html: { class: 'form-control'} %>
         </div>
         <div class="col-12 col-md-6 my-3">
           <%= f.input :bank_account_details, input_html: { class: 'form-control', type: 'file' } %>
