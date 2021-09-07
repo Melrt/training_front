@@ -2,38 +2,38 @@
   <div class="bg-light text-dark py-4 fixed-bottom">
     <div class="container d-flex justify-content-between flex-column-reverse flex-sm-row flex-sm-wrap">
       <div>
-        <h3 class="fw-bold text-uppercase"><%= t('.discover') %></h3>
+        <%= content_tag :h3, t('.discover'), class: 'fw-bold text-uppercase' %>
         <ul class="list-unstyled">
-          <li><a class="text-decoration-none" href="#"><%= t('home') %></a></li>
-          <li><a class="text-decoration-none" href="#"><%= t('.who_we_are') %></a></li>
-          <li><a class="text-decoration-none" href="#"><%= t('discover_offer') %></a></li>
-          <li><a class="text-decoration-none" href="#"><%= t('credit_application_form') %></a></li>
+          <li><%= link_to  t('home'), '#',  class: 'text-decoration-none' %></li>
+          <li><%= link_to  t('.who_we_are'), '#',  class: 'text-decoration-none' %></li>
+          <li><%= link_to t('discover_offer'), '#', class: 'text-decoration-none' %></li>
+          <li><%= link_to t('credit_application_form'), '#', class: 'text-decoration-none' %></li>
         </ul>
       </div>
 
       <div>
-        <h3 class="fw-bold text-uppercase"><%= t('.about_us') %></h3>
+        <%= content_tag :h3, t('.about_us'), class: 'fw-bold text-uppercase' %>
         <ul class="list-unstyled">
-          <li><a class="text-decoration-none" href="#"><%= t('.terms_and_conditions_of_use') %></a></li>
-          <li><a class="text-decoration-none" href="#"><%= t('.frequently_asked_questions') %></a></li>
-          <li><a class="text-decoration-none" href="#"><%= t('.legal_notice') %></a></li>
+          <li><%= link_to t('.terms_and_conditions_of_use'), '#', class: 'text-decoration-none' %></li>
+          <li><%= link_to t('.frequently_asked_questions'), '#', class: 'text-decoration-none' %></li>
+          <li><%= link_to t('.legal_notice'), '#', class: 'text-decoration-none' %></li>
         </ul>
       </div>
 
       <div>
-        <h3 class="fw-bold text-uppercase"><%= t('.social_networks') %></h3>
+        <%= content_tag :h3, t('.social_networks'), class: 'fw-bold text-uppercase' %>
         <ul class="list-unstyled">
-          <li><a class="text-decoration-none" href="#"><%= t('.facebook') %></a></li>
-          <li><a class="text-decoration-none" href="#"><%= t('.twitter') %></a></li>
-          <li><a class="text-decoration-none" href="#"><%= t('.youtube') %></a></li>
+          <li><%= link_to t('.facebook'), '#', class: 'text-decoration-none' %></li>
+          <li><%= link_to t('.twitter'), '#', class: 'text-decoration-none' %></li>
+          <li><%= link_to t('.youtube'), '#', class: 'text-decoration-none' %></li>
         </ul>
       </div>
 
       <div class="d-lg-flex align-items-center">
         <%= image_tag "logo_capsens", alt: "alttext", class: "mx-3", width: 150 %>
         <div>
-          <p><%= t('brand') %></p>
-          <p><%= t('address_brand') %><br> <%= t('zipcode_brand') %> <%= t('paris') %></p>
+          <%= content_tag :p, t('brand') %>
+          <p><%= t('address_brand') %><br> <%= t('zipcode_brand') %> <%= t('city_brand') %></p>
         </div>
       </div>
     </div>
