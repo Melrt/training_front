@@ -4,10 +4,10 @@
       <div>
         <%= content_tag :h3, t('.discover'), class: 'fw-bold text-uppercase' %>
         <ul class="list-unstyled">
-          <li><%= link_to  (I18n.t :home, scope: %i[layouts application]), '#',  class: 'text-decoration-none' %></li>
-          <li><%= link_to  t('.who_we_are'), '#',  class: 'text-decoration-none' %></li>
-          <li><%= link_to (I18n.t :discover_offer, scope: %i[layouts application]), '#', class: 'text-decoration-none'  %></li>
-          <li><%= link_to (I18n.t :credit_application_form, scope: %i[layouts application]), '#', class: 'text-decoration-none' %></li>
+          <li><%= link_to I18n.t(:home, scope: %i[layouts application]), '#', class: 'text-decoration-none' %></li>
+          <li><%= link_to t('.who_we_are'), '#',  class: 'text-decoration-none' %></li>
+          <li><%= link_to I18n.t(:discover_offer, scope: %i[layouts application]), '#', class: 'text-decoration-none'  %></li>
+          <li><%= link_to I18n.t(:credit_application_form, scope: %i[layouts application]), '#', class: 'text-decoration-none' %></li>
         </ul>
       </div>
 
