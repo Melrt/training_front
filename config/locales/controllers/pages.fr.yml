@@ -1,12 +1,12 @@
 fr:
   pages:
     home:
+      slogan: Vous propose un dossier de crédit pour vous
+      cta_form: Faire la demande
       form:
-        slogan: Vous propose un dossier de crédit pour vous
         financial_informations: Informations financières
         personnal_informations: Informations personnelles
         contractual_informations: Informations contractuelles
-        cta_form: Faire la demande
         send: Envoyer
   simple_form:
     "yes": 'Oui'
