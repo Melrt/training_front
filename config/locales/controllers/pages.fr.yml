@@ -4,9 +4,9 @@ fr:
       slogan: Vous propose un dossier de crédit pour vous
       cta_form: Faire la demande
       payment_section:
-        payment_section_description: "Facilitez vos paiements grâce aux différentes solutions que nous vous proposons. Vos informations sont stockées et protégées en toutes circonstances."
-        payment_section_title: Le paiement en toute simplicité
-        payment_image_alt: payment illustration
+        description: "Facilitez vos paiements grâce aux différentes solutions que nous vous proposons. Vos informations sont stockées et protégées en toutes circonstances."
+        title: Le paiement en toute simplicité
+        image_alt: payment illustration
       form:
         financial_informations: Informations financières
         personnal_informations: Informations personnelles
