@@ -7,6 +7,9 @@ fr:
         description: "Facilitez vos paiements grâce aux différentes solutions que nous vous proposons. Vos informations sont stockées et protégées en toutes circonstances."
         title: Le paiement en toute simplicité
         image_alt: payment illustration
+      last_articles:
+        our_last_articles: Nos derniers articles
+        publiched_on: publié le 
       form:
         financial_informations: Informations financières
         personnal_informations: Informations personnelles
