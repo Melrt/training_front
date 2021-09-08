@@ -10,9 +10,3 @@ fr:
       # html: '<abbr title="required">*</abbr>'
     error_notification:
       default_message: "Erreur, veuillez vérifier vos réponses:"
-    # Labels and hints examples
-    labels:
-      form: 
-        test: Test 
-    hints:
-      
