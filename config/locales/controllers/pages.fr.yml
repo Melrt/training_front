@@ -14,7 +14,7 @@ fr:
         financial_informations: Informations financières
         personnal_informations: Informations personnelles
         contractual_informations: Informations contractuelles
-        send: Envoyer
+        next_step: Étape suivante
   simple_form:
     "yes": 'Oui'
     "no": 'Non'

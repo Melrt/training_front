@@ -2,20 +2,27 @@
 @import 'variables/spacing';
 @import 'variables/colors';
 @import 'variables/fonts';
+@import 'variables/form';
+@import 'variables/navbar';
 
 // Libraries
 @import 'bootstrap/scss/bootstrap';
 
 // Mixins
 
+// Placeholders
+@import 'placeholders/buttons';
+
 
 // Components
 @import 'components/buttons';
-@import 'components/header';
-@import 'components/footer';
+@import 'components/forms';
+@import 'components/form_card';
 
 
 // Global
 @import 'rules';
 
 // Views
+@import 'views/layouts/footer';
+
