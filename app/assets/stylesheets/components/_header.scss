@@ -1,0 +1,6 @@
+.navbar-light .navbar-nav .nav-link {
+  color: $dark;
+  &:hover, &:active, &:focus {
+    color: $primary;
+  }
+}

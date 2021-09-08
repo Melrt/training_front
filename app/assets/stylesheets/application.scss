@@ -1,18 +1,21 @@
 // Variables
-@import "variables/spacing";
-@import "variables/colors";
-@import "variables/fonts";
+@import 'variables/spacing';
+@import 'variables/colors';
+@import 'variables/fonts';
 
 // Libraries
-@import "bootstrap/scss/bootstrap";
+@import 'bootstrap/scss/bootstrap';
 
 // Mixins
 
 
 // Components
+@import 'components/buttons';
+@import 'components/header';
+@import 'components/footer';
 
 
 // Global
-@import "rules";
+@import 'rules';
 
 // Views

@@ -1,0 +1,8 @@
+.sign_in_button {
+	color: $light;
+	&:hover {
+		background-color: $light;
+		color: $primary;
+		border: 1px solid $primary
+	}
+}
