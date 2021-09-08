@@ -23,26 +23,3 @@ fr:
       mark: '*'
     error_notification:
       default_message: "Erreur, veuillez vérifier vos réponses:"
-    labels:
-      form:
-        home:
-          first_name: Prénom
-          last_name: Nom
-          birth_date: Date de naissance
-          birthplace: Lieu de naissance
-          nationality: Nationnalité
-          matrial_status: Situation matrimoniale
-          email: Email
-          address: Adresse
-          city: Ville
-          zipcode: Code postale
-          bic: Bic
-          iban: Iban
-          identity_proof: Justificatif d'identité
-          address_proof: Justificatif de domicile
-          bank_account_details: Relevé d'identité bancaire
-          estate: Patrimoine
-          annual_net_salary: Salaire annuel net
-          contract_type: Type de contrat
-          pay_slip: 3 derniers bulletins de salaire
-          contract: Contrat
