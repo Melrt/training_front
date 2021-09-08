@@ -8,7 +8,7 @@
 		      <div class="card-body">
 		      	<div class="d-flex d-xl-flex d-md-block justify-content-between align-items-center">
 		      		<%= content_tag :p, article.category, class: "badge bg-light text-dark" %>
-		      		<%= content_tag :p, [t('.publiched_on'), article.publication_date.strftime("%d/%m/%Y")].join("\n").html_safe%>
+		      		<%= article.published_on %>
 		      	</div>
 		        <%= content_tag :h5, article.title, class: "card-title" %>
 		        <%= content_tag :p, article.content, class: "card-text" %>
