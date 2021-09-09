@@ -1,7 +1,3 @@
-.sign-in-button {
-	@extend %button-colors;
-}
-
-.form-button {
-	@extend %button-colors;
+.solid-button {
+	@extend %plain-color-button;
 }

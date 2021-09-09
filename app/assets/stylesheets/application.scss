@@ -9,6 +9,7 @@
 @import 'bootstrap/scss/bootstrap';
 
 // Mixins
+@import 'mixins/box_shadow';
 
 // Placeholders
 @import 'placeholders/buttons';
@@ -18,6 +19,7 @@
 @import 'components/buttons';
 @import 'components/forms';
 @import 'components/form_card';
+@import 'components/headers';
 
 
 // Global
