@@ -53,7 +53,27 @@
       <%= f.input :contract, input_html: { class: 'form-control', type: 'file' } %>
     </div>
   </div>
+
+    <%= f.label :housing_type %>
+    <%= f.input :housing_type,
+            as: :radio_buttons,
+            label: "",
+            collection_wrapper_tag: 'div',
+            collection_wrapper_class: 'row text-center',
+            item_wrapper_class: 'col housing-type-item m-2',
+            input_html: {class: 'housing-type-selector'},
+            collection: Form.housing_type.options %>
+
+    <%= f.label :status %>
+    <%= f.input :status,
+            as: :radio_buttons,
+            label: "",
+            collection_wrapper_tag: 'div',
+            collection_wrapper_class: 'd-flex justify-content-around',
+            input_html: {class: 'mr-5'},
+            collection: Form.status.options %>
+
   <div class="text-center p-5">
-    <%= f.button :submit, t('.send'), class: 'btn btn-secondary' %>
+    <%= f.button :submit, t('.next_step'), data: { disable_with: t('.processing') }, class: 'btn btn-secondary solid-button' %>
   </div>
 <% end %>

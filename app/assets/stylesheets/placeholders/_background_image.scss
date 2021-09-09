@@ -1,0 +1,10 @@
+%background-image-label {
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+%hover-movement {
+  transition: .2s;
+  transform: translateY(-5px);
+}

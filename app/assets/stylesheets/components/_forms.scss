@@ -1,0 +1,42 @@
+label {
+	color: $primary;
+	font-style: italic;
+	font-weight: $font-weight-semi-bold;
+}
+
+.housing-type-item .form-check-label {
+  min-width: 350px;
+  min-height: 250px;
+}
+
+.housing-type-selector {
+  position: absolute;
+  transform: scale(0);
+}
+
+.housing-type-selector + label {
+  cursor: pointer;
+  padding: 20px;
+  border: 1px solid $dark;
+  border-radius: 4px;
+  background-color: white;
+  &:hover {
+  	@extend %hover-movement;
+  }
+}
+
+.housing-type-selector:checked + label {
+  border: 1px solid $primary;
+  @include box-shadow($primary);
+}
+
+#form_housing_type_house + label {
+  background-image: asset-url('house.png');
+  @extend %background-image-label;
+}
+
+
+#form_housing_type_flat + label {
+  background-image: asset-url('appartment.png');
+  @extend %background-image-label;
+}
