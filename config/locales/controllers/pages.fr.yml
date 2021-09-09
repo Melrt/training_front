@@ -15,6 +15,7 @@ fr:
         personnal_informations: Informations personnelles
         contractual_informations: Informations contractuelles
         next_step: Étape suivante
+        processing: Traitement en cours
   simple_form:
     "yes": 'Oui'
     "no": 'Non'
