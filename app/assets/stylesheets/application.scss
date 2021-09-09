@@ -12,20 +12,18 @@
 @import 'mixins/box_shadow';
 
 // Placeholders
-@import 'placeholders/buttons';
 @import 'placeholders/background_image';
-
 
 // Components
 @import 'components/buttons';
 @import 'components/forms';
 @import 'components/form_card';
 @import 'components/headers';
+@import 'components/footer';
 
 
 // Global
 @import 'rules';
 
 // Views
-@import 'views/layouts/footer';
 
