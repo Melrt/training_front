@@ -41,3 +41,5 @@ fr:
         contract_type: Type de contrat
         pay_slip: 3 derniers bulletins de salaire
         contract: Contrat
+        housing_type: Type de logement
+        status: Statut
