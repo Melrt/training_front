@@ -1,5 +1,26 @@
 // Variables
-@import "variables";
+@import 'variables/spacing';
+@import 'variables/colors';
+@import 'variables/fonts';
+@import 'variables/form';
+@import 'variables/navbar';
 
 // Libraries
-@import "bootstrap/scss/bootstrap";
+@import 'bootstrap/scss/bootstrap';
+
+// Mixins
+@import 'mixins/box_shadow';
+
+// Components
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/form_card';
+@import 'components/headers';
+@import 'components/footer';
+
+
+// Global
+@import 'rules';
+
+// Views
+

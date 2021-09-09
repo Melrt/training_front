@@ -1,17 +1,19 @@
 <div class="mt-5 bg-primary bg-opacity-10 h-100 text-center py-5">
-  <%= content_tag :h1, t('brand')  %>
-  <%= content_tag :p, t('.slogan')  %>
+  <%= content_tag :h3, t('brand')  %>
+  <%= content_tag :h5, t('.slogan')  %>
   <%= link_to t('.cta_form'), '#', class: 'btn btn-secondary m-5'  %>
 </div>
 
 <div class="container">
-  <div class="mt-n5 bg-light p-3 mb-3">
+  <div class="mt-n5 bg-light p-3 mb-3 mx-auto form-card">
 	<%= render 'pages/home/form' %>
   </div>
 </div>
 
-<div class="container">
-	<%= render 'pages/home/payment_section' %>
+<div class="bg-primary bg-opacity-10">
+  <div class="container">
+  	<%= render 'pages/home/payment_section' %>
+  </div>
 </div>
 
 <%= render 'pages/home/last_articles' %>
